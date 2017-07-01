@@ -1,6 +1,6 @@
 using System;
 
-public class main {
+public class hello_test {
   static public int Main() {
     HelloWorld hello = new HelloWorld();
      if (hello.message() != "Hello, world") {

@@ -16,12 +16,12 @@ Feature: number of abstract classes
   Scenario: "Animals" project
     Given I am in t/samples/animals/<language>
     When I run "analizo metrics ."
-    Then analizo must report that the project has total_abstract_classes = 2
+    Then analizo must report that the project has total_abstract_classes = <total_abstract_classes>
     Examples:
-      | language |
-      | cpp      |
-      | java     |
-      | csharp   |
+      | language | total_abstract_classes |
+      | cpp      | 2                      |
+      | java     | 2                      |
+      | csharp   | 1                      |
 
   Scenario: "Polygons" project
     Given I am in t/samples/polygons/<language>

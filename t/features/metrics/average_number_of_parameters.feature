@@ -13,3 +13,4 @@ Feature: average number of parameters metric
       | language | main_module | anpm_main |
       | cpp      | main        | 0         |
       | java     | Main        | 1         |
+      | csharp   | main        | 1         |

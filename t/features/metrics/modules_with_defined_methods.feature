@@ -21,3 +21,4 @@ Feature: number of abstract classes
       | language |
       | cpp      |
       | java     |
+      | csharp   |

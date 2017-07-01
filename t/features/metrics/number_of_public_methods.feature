@@ -18,3 +18,6 @@ Feature: number of public methods metric
       | animals  | java     |  Animal    | 1    |
       | animals  | java     |  Cat       | 2    |
       | animals  | java     |  Dog       | 2    |
+      | animals  | csharp   |  Animal    | 1    |
+      | animals  | csharp   |  Cat       | 2    |
+      | animals  | csharp   |  Dog       | 2    |

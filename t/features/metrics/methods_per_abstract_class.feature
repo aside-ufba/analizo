@@ -21,6 +21,7 @@ Feature: total number of methods per abstract class
       | language |
       | cpp      |
       | java     |
+      | csharp   |
 
   Scenario: "Polygons" project
     Given I am in t/samples/polygons/<language>

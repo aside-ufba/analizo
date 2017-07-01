@@ -21,6 +21,7 @@ Feature: number of abstract classes
       | language |
       | cpp      |
       | java     |
+      | csharp   |
 
   Scenario: "Polygons" project
     Given I am in t/samples/polygons/<language>

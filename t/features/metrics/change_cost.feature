@@ -21,6 +21,7 @@ Feature: change cost degree
       | language |
       | cpp      |
       | java     |
+      | csharp   |
 
   Scenario: "Hieracchical Graph" project
     Given I am in t/samples/hierarchical_graph

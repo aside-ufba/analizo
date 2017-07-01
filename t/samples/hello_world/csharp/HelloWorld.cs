@@ -10,11 +10,11 @@ public class HelloWorld {
   }
 
   public void say() {
-    Console.WriteLine("Hello, world! My id is " + this._id);
+    Console.WriteLine("Hello, world! My id is " + _id);
   }
 
   public void destroy() {
-    Console.WriteLine("Goobdye, world! My id is " + this._id);
+    Console.WriteLine("Goobdye, world! My id is " + _id);
   }
 
   private void private_method() {

@@ -22,3 +22,8 @@ Feature: mapping modules to filenames
     Given I am in t/samples/hello_world/c
     When I run "analizo metrics ."
     Then analizo must report that module hello_world has _filename = [hello_world.c,hello_world.h]
+
+  Scenario: CSharp
+    Given I am in t/samples/hello_world/csharp
+    When I run "analizo metrics ."
+    Then analizo must report that module HelloWorld has _filename = [HelloWorld.cs]

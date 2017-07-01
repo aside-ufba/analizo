@@ -11,6 +11,7 @@ Feature: total number of methods per abstract class
       | language |
       | cpp      |
       | java     |
+      | csharp   |
 
   Scenario: "Animals" project
     Given I am in t/samples/animals/<language>
@@ -29,4 +30,3 @@ Feature: total number of methods per abstract class
       | language | value |
       | cpp      |  2.5  |
       | java     |   2   |
-
